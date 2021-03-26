@@ -250,7 +250,7 @@
         }
       }
     }
-  }
+  },
   {
     "name": "seafile_client",
     "platforms": {
