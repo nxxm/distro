@@ -279,5 +279,18 @@
         }
       }
     }
+  },
+  {
+    "name": "openssh",
+    "platforms": {
+      "windows": {
+        "universal": {
+          "url": "http://nxxm.indigenious.io/distro/v.0.0.15/openssh/OpenSSH-Win64.zip",
+          "sha1": "0a60a7d9d6ac67dfe4b97f720ad780dd185ed432",
+          "root": "OpenSSH-Win64",
+          "path": ["."]
+        }
+      }
+    }
   }
 ]
