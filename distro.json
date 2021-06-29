@@ -144,6 +144,35 @@
       }
     }
   },
+  {
+    "name": "jdk",
+    "platforms": {
+      "macos": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/jdk-16_0_1/jdk-16.0.1-macos.zip",
+          "sha1": "399c189d3145c6f3d7ab8e829bfd0d61eb30a3c5",
+          "root": "jdk-16.0.1.jdk",
+          "path": ["Contents/MacOS","Contents/Home/bin","Contents/Home/lib"]
+        }
+      },
+      "linux": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/jdk-16_0_1/jdk-16.0.1-linux.zip",
+          "sha1": "1946904e4d5ad74f3193d07d7c8a98136dbaff74",
+          "root": "jdk-16.0.1",
+          "path": ["bin","lib"]
+        }
+      },
+      "windows": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/jdk-16_0_1/jdk-16.0.1-windows.zip",
+          "sha1": "112dbf189260a647842e98671516f18e4de070f9",
+          "root": "jdk-16.0.1",
+          "path": ["bin","lib"]
+        }
+      }
+    }
+  },
 
   {
     "name": "emsdk",
@@ -158,7 +187,6 @@
       }
     }
   },
-
   {
     "name": "hunter",
     "platforms": {
@@ -172,7 +200,6 @@
       }
     }
   },
-
   {
     "name": "hunter_gate",
     "platforms": {
@@ -240,6 +267,74 @@
           "sha1": "782c595c1aece9fea8bfa7a14bfbf52e206a0f91",
           "root": "go",
           "path": ["bin"]
+        }
+      }
+    }
+  },
+  {
+    "name": "seafile_client",
+    "platforms": {
+      "macos": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/seafile_client/tipi_seafile_client_MacOs.zip",
+          "sha1": "d20a8c574b546801f0964780e612adb69e1f84d4",
+          "root": "tipi_seafile_client",
+          "path": [".","Contents/Resources"]
+        }
+      },
+      "linux": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/seafile_client/tipi_seafile_client_linux_v2.zip",
+          "sha1": "14fc5deafa8156949e98b7ec450e8d432c953dcc",
+          "root": "tipi_seafile_client",
+          "path": [".","daemon"]
+        }
+      },
+      "windows": {
+        "universal": {
+          "url": "https://nxxm.indigenious.io/distro/v.0.0.15/seafile_client/tipi_seafile_client_windows.zip",
+          "sha1": "01b125c46bed19ec725984b91aa8ac096ec3c7f2",
+          "root": "tipi_seafile_client",
+          "path": [".","deamon/PFiles/Seafile/bin"]
+        }
+      }
+    }
+  },
+  {
+    "name": "openssh",
+    "platforms": {
+      "windows": {
+        "universal": {
+          "url": "http://nxxm.indigenious.io/distro/v.0.0.15/openssh/OpenSSH-Win64.zip",
+          "sha1": "0a60a7d9d6ac67dfe4b97f720ad780dd185ed432",
+          "root": "OpenSSH-Win64",
+          "path": ["."]
+        }
+      }
+    }
+  },
+  {
+    "name": "openapi_generator",
+    "platforms": {
+      "all": {
+        "universal": {
+          "url": "http://nxxm.indigenious.io/distro/v.0.0.15/openapi_generator/openapi-generator.zip",
+          "sha1": "ec7cbaed034d7aaeb2a0f22619a8927c08a74894",
+          "root": "openapi_generator",
+          "path": ["."]
+        }
+      }
+    }
+  },
+  {
+    "name": "openapi_generator_script",
+    "platforms": {
+      "all": {
+        "universal": {
+          "url": "http://nxxm.indigenious.io/distro/v.0.0.15/script/script_for_openapi_generator.zip",
+          "sha1": "2ebd824be619d307f09caa6730b17f486ae23a2b",
+          "root": "script_for_openapi_generator",
+          "path": ["."]
         }
       }
     }
